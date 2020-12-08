@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-x = range(97, 124)
-for i in x:
+for i in range(97, 124):
     i = chr(i)
     print(i, end="")

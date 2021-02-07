@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 # 4-list_division.py
 

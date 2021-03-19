@@ -1,14 +1,14 @@
 #!/usr/bin/python3
 # 2-square.py
 
-"""Class that defines a square"""
+"""Define a class Square."""
 
 
 class Square:
+    """Represent a square."""
 
-    """checks whether type size is interger or not"""
     def __init__(self, size=0):
-        """check whether __size is an integer"""
+        """ Checks whether size is int"""
         if type(size) != int:
             raise TypeError("size must be an integer")
         elif size < 0:

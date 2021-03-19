@@ -1,7 +1,10 @@
 #!/usr/bin/python3
+# 1-square.py
+
+"""Defines a class Square"""
+
+
 class Square:
-    """
-    A class whose method defines a square using a private instance attribute
-    """
+    """Method defines private instance attribute"""
     def __init__(self, size):
         self.__size = size

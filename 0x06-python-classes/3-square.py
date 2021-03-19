@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# 3-square.py
 """
   class that defines a square
 """
@@ -10,14 +11,14 @@ class Square:
         """
         checks for integers
         """
-        self.__size = size
+        self.__size = __size
         if type(size) != int:
-            raise TypeError ("size must be an integer")
+            raise TypeError ("__size must be an integer")
         elif size < 0:
-            raise ValueError ("size must be >= 0")
+            raise ValueError ("__size must be >= 0")
 
     def area(self):
         """
         public instance method that returns current square area
         """
-        return (self.size * self.size)
+        return (self.__size * self.__size)
